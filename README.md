@@ -4,8 +4,6 @@ Puppet code from INET 4031 Lab 11 - Configuration as Code (CaC).
 ## Overview
 This project demonstrates using Puppet to automate system configuration on an Ubuntu 24.04 server. It includes managing users/groups and deploying a full LAMP stack (Linux, Apache, MySQL/MariaDB, PHP).
 
----
-
 ## Features
 
 ### User & Group Management
@@ -20,8 +18,6 @@ This project demonstrates using Puppet to automate system configuration on an Ub
   - home directories
   - secure (hashed) passwords
 
----
-
 ### LAMP Stack Deployment
 - Apache2 web server installed and running
 - PHP installed with modules:
@@ -31,13 +27,9 @@ This project demonstrates using Puppet to automate system configuration on an Ub
 - MariaDB (MySQL) installed and running
 - Apache enabled at boot
 
----
-
 ### PHP Test Page
 - Deployed `phpinfo.php` using Puppet
 - Verified PHP functionality via browser
-
----
 
 ## Files
 
@@ -45,8 +37,6 @@ This project demonstrates using Puppet to automate system configuration on an Ub
 - `phpinfo.php` → Test file for PHP
 - `server_users_groups.pp` → Manages users and groups
 - `testing_puppet.pp` → Creates a test file to verify Puppet functionality
-
----
 
 ## How to Apply
 
