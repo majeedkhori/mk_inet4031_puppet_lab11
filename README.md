@@ -41,9 +41,10 @@ This project demonstrates using Puppet to automate system configuration on an Ub
 
 ## Files
 
-- `server_users_groups.pp` → Manages users and groups
 - `lamp_stack_server.pp` → Defines LAMP stack role
 - `phpinfo.php` → Test file for PHP
+- `server_users_groups.pp` → Manages users and groups
+- `testing_puppet.pp` → Creates a test file to verify Puppet functionality
 
 ---
 
